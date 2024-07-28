@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "mlflow-oauth-keycloak-auth"
 authors = [
-  { name="Christian Wissor", email="github@smiwit.de" },
+  { name="SmithyW", email="github@smiwit.de" },
 ]
 description = "Package for dealing with JWT tokens from Keycloak in a MLflow - oauth2-proxy setup."
 readme = "README.md"
@@ -25,8 +25,8 @@ dynamic = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/pypa/sampleproject"
-Issues = "https://github.com/pypa/sampleproject/issues"
+Homepage = "https://github.com/SmithyW/mlflow-oauth-keycloak-auth"
+Issues = "https://github.com/SmithyW/mlflow-oauth-keycloak-auth/issues"
 
 [tool.hatch.version]
 path = "src/mlflow_oauth_keycloak_auth/__about__.py"
