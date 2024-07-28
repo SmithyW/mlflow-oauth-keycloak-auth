@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mlflow-oauth-keycloak-auth"
+authors = [
+  { name="Christian Wissor", email="github@smiwit.de" },
+]
+description = "Package for dealing with JWT tokens from Keycloak in a MLflow - oauth2-proxy setup."
+readme = "README.md"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["mlflow", "oauth2", "keycloak"]
+dependencies = [
+    "requests",
+    "python-dotenv",
+]
+dynamic = [
+  "version",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
+
+[tool.hatch.version]
+path = "src/mlflow_oauth_keycloak_auth/__about__.py"
