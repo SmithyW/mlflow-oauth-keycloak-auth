@@ -1,4 +1,4 @@
-# keycloak-mlflow-token-auth
+# mlflow-oauth-keycloak-auth
 The purpose of this package is to enable the use of the [MLflow "fluent" tracking API](https://mlflow.org/docs/latest/python_api/mlflow.html) with upstream oauth2-proxy.
 
 
