@@ -17,7 +17,7 @@ pip install mlflow
 
 ```python
 import mlflow
-from mlflow-oauth-keycloak-auth import authentication as mlflow_auth
+from mlflow_oauth_keycloak_auth import authentication as mlflow_auth
 
 mlflow_auth.init()
 mlflow_auth.authenticate()
