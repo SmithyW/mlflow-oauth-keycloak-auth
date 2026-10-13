@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling>=1.27"]
 build-backend = "hatchling.build"
 
 [project]
@@ -9,16 +9,23 @@ authors = [
 ]
 description = "Package for dealing with JWT tokens from Keycloak in a MLflow - oauth2-proxy setup."
 readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENCE"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Operating System :: OS Independent",
 ]
 keywords = ["mlflow", "oauth2", "keycloak"]
 dependencies = [
-    "requests",
-    "python-dotenv",
+    "requests>=2.32",
+    "python-dotenv>=1.0",
 ]
 dynamic = [
   "version",
